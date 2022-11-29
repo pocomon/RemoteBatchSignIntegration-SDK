@@ -64,12 +64,7 @@
                 <repository>
                     <id>silanis-releases</id>
                     <url>${silanis-releases-url}</url>
-                </repository>
-                <snapshotRepository>
-                    <id>silanis-snapshots</id>
-                    <url>${silanis-snapshots-url}</url>
-                </snapshotRepository>
-                <downloadUrl>${silanis-download-url&gt;}</downloadUrl>
+                </repository>                
             </distributionManagement>
         </profile>
         
