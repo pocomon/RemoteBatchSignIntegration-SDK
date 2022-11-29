@@ -63,13 +63,13 @@
             <distributionManagement>
                 <repository>
                     <id>silanis-releases</id>
-                    <url>http://repository.dev.corp.onespan.com/repository/libs-release-local/</url>
+                    <url>${silanis-releases-url}</url>
                 </repository>
                 <snapshotRepository>
                     <id>silanis-snapshots</id>
-                    <url>http://repository.dev.corp.onespan.com/repository/libs-snapshot-local/</url>
+                    <url>${silanis-snapshots-url}</url>
                 </snapshotRepository>
-                <downloadUrl>http://repository.dev.corp.onespan.com/repository/libs-release/</downloadUrl>
+                <downloadUrl>${silanis-download-url>}</downloadUrl>
             </distributionManagement>
         </profile>
         
